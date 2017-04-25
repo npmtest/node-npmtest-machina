@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for  [machina (v2.0.0)](http://machina-js.org/)",
+    "description": "#### basic test coverage for  [machina (v2.0.0)](http://machina-js.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-machina.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-machina) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-machina.svg)](https://travis-ci.org/npmtest/node-npmtest-machina)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "machina": "*",

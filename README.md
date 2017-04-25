@@ -1,6 +1,7 @@
-# npmtest-machina [![npm package](https://img.shields.io/npm/v/npmtest-machina.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-machina) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-machina.svg)](https://travis-ci.org/npmtest/node-npmtest-machina)
+# npmtest-machina
 
-test coverage for  [machina (v2.0.0)](http://machina-js.org/)
+#### basic test coverage for  [machina (v2.0.0)](http://machina-js.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-machina.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-machina) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-machina.svg)](https://travis-ci.org/npmtest/node-npmtest-machina)
+
 #### A library for creating powerful and flexible finite state machines. Loosely inspired by Erlang/OTP's gen_fsm behavior.
 
 [![NPM](https://nodei.co/npm/machina.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/machina)
@@ -9,7 +10,7 @@ test coverage for  [machina (v2.0.0)](http://machina-js.org/)
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-machina/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-machina/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-machina/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-machina/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-machina/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-machina/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-machina/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-machina/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-machina/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-machina/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-machina/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-machina/build/coverage.html/index.html)
 
@@ -199,7 +200,8 @@ test coverage for  [machina (v2.0.0)](http://machina-js.org/)
         "test": "./node_modules/mocha/bin/mocha -r spec/helpers/node-setup.js spec",
         "watch": "gulp watch"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
